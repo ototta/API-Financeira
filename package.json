@@ -1,0 +1,32 @@
+{
+  "name": "api-financeira",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento financeiro desenvolvida com Node.js, Express e PostgreSQL.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "postgresql",
+    "api",
+    "financeiro"
+  ],
+  "author": "Joao Guilherme da Silva Totta",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.22.0",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "type": "commonjs"
+}
